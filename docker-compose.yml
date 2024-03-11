@@ -4,10 +4,10 @@ services:
   db:
     image: mysql:5.7
     environment:
-      MYSQL_ROOT_PASSWORD: tu_password
+      MYSQL_ROOT_PASSWORD: 
       MYSQL_DATABASE: lab6
-      MYSQL_USER: tu_usuario
-      MYSQL_PASSWORD: tu_password_usuario
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
     ports:
       - "3306:3306"
     volumes:

@@ -3,6 +3,9 @@ import bodyParser from 'body-parser';
 const { json } = bodyParser;
 import cors from 'cors';
 import eventsRoutes from './routes/post.js';
+;
+
+
 
 
 const app = express();
@@ -13,7 +16,6 @@ app.use(json());
 
 
 app.use(cors());
-
 
 
 
